@@ -143,7 +143,7 @@ if has("autocmd")
     autocmd BufRead,BufNewFile * match NonBreakableSpace / \+/
     highlight NonBreakableSpace ctermbg=238 guibg=lightgrey
 
-    autocmd BufNewFile *.ino,*.h,*.c,*.cpp,*.py,*.html
+    autocmd BufNewFile *.ino,*.h,*.c,*.cpp,*.py,*.html,*.php
         \ call CreateFromSkel('%')
 
     " Enable file type detection.

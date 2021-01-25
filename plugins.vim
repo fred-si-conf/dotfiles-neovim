@@ -12,7 +12,6 @@ Plug 'junegunn/vim-plug' " let Vundle manage Vundle, required
 
 " Explorateurs de fichiers {{{
 Plug 'https://github.com/sjbach/lusty.git'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'https://github.com/kien/ctrlp.vim.git'
 " }}}
 
@@ -50,6 +49,10 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'vifm/vifm.vim'
 Plug 'jakykong/vim-zim'
+
+Plug 'godlygeek/tabular', { 'for': 'markdown' }
+Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+
 Plug 'dpelle/vim-Grammalecte'
 
 Plug 'vim-scripts/po.vim'
