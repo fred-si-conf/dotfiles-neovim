@@ -10,6 +10,8 @@ call plug#begin(resolve(expand('<sfile>:p:h')).'/pluged')
 
 Plug 'junegunn/vim-plug' " let Vundle manage Vundle, required
 
+Plug 'rust-lang/rust.vim'
+
 " Explorateurs de fichiers {{{
 Plug 'https://github.com/sjbach/lusty.git'
 Plug 'https://github.com/kien/ctrlp.vim.git'
@@ -27,6 +29,7 @@ Plug 'Shougo/deoplete.nvim' " Remplace YouCompleteMe
 Plug 'roxma/nvim-yarp' " Requis par deoplete.nvim
 Plug 'roxma/vim-hug-neovim-rpc' " Requis par deoplete.nvim
 Plug 'deoplete-plugins/deoplete-jedi', { 'for': 'python' }
+Plug 'shawncplus/phpcomplete.vim', { 'for': 'php' }
 
 Plug 'mattn/emmet-vim', { 'for': 'html' }
 " }}}
