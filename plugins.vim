@@ -10,8 +10,6 @@ call plug#begin(resolve(expand('<sfile>:p:h')).'/pluged')
 
 Plug 'junegunn/vim-plug' " let Vundle manage Vundle, required
 
-Plug 'rust-lang/rust.vim'
-
 " Explorateurs de fichiers {{{
 Plug 'https://github.com/sjbach/lusty.git'
 Plug 'https://github.com/kien/ctrlp.vim.git'
