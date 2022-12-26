@@ -44,7 +44,7 @@ function CreateFromSkel(file_path)
         call search('Une_courte_description.', 'w')
 
     elseif file_extension == 'html'
-        call search('Insert_here_the_page_description', 'w')
+        call search('body', 'w')
         set nofoldenable
 
     endif
