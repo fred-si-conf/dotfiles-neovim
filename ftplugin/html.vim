@@ -1,4 +1,3 @@
 setlocal foldmethod=indent
-setlocal tabstop=2
-setlocal shiftwidth=2
-setlocal colorcolumn=79
+setlocal colorcolumn=79,119
+setlocal textwidth=119
