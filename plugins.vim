@@ -39,7 +39,6 @@ Plug 'tpope/vim-commentary' " Commenter facilement du code
 
 Plug 'hail2u/vim-css3-syntax' " Meilleure coloration syntaxique pour CSS3
 Plug 'pangloss/vim-javascript'
-Plug 'heavenshell/vim-jsdoc'
 
 "Plugin 'stevearc/vim-arduino'
 Plug 'https://tpope.io/vim/surround.git'

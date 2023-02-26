@@ -48,3 +48,5 @@ set textwidth=79    " Coupe automatiquement les lignes de plus de 78 caractères
 
 set wildmenu        " Menu d’autocomplétion de la ligne de commande
 set hidden          " Cache un tampon abandonné plutôt que de le décharger
+
+set nofoldenable    " Démarre avec repli ouvert
