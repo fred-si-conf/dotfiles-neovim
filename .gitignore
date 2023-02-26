@@ -1,3 +1,5 @@
 /pluged
 /autoload/plug.vim
 /tags
+.netrwhist
+.netrwbook
