@@ -1,4 +1,3 @@
-
 " Fichier de gestion des modules
 "
 " Si le dossier bundle/Vundle.vim n’existe pas, lancer
@@ -21,16 +20,9 @@ Plug 'dense-analysis/ale', { 'for': 'python' }
 Plug 'sheerun/vim-polyglot' " Gestion de la syntaxe pour plein de language
 " }}}
 
-" {{{ autocomplétion
-Plug 'Shougo/deoplete.nvim' " Remplace YouCompleteMe
 
-Plug 'roxma/nvim-yarp' " Requis par deoplete.nvim
-Plug 'roxma/vim-hug-neovim-rpc' " Requis par deoplete.nvim
-Plug 'deoplete-plugins/deoplete-jedi', { 'for': 'python' }
 Plug 'shawncplus/phpcomplete.vim', { 'for': 'php' }
-
 Plug 'mattn/emmet-vim', { 'for': 'html' }
-" }}}
 
 " Autre {{{
 Plug 'vim-scripts/indentpython.vim' " indente correctement le code python
@@ -44,7 +36,6 @@ Plug 'pangloss/vim-javascript'
 Plug 'https://tpope.io/vim/surround.git'
 Plug 'tpope/vim-fugitive' " Controler git depuis vim
 
-Plug 'ludovicchabant/vim-gutentags' " Remplace auto craigemery/vim-autotag
 Plug 'vim-airline/vim-airline'
 
 Plug 'vifm/vifm.vim'
@@ -52,8 +43,6 @@ Plug 'jakykong/vim-zim'
 
 Plug 'godlygeek/tabular', { 'for': 'markdown' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-
-Plug 'dpelle/vim-Grammalecte'
 
 Plug 'vim-scripts/po.vim'
 " }}}
